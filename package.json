@@ -22,7 +22,7 @@
     "expo-gl": "~13.6.0",
     "expo-gl-cpp": "^11.3.0",
     "expo-image-picker": "~14.7.1",
-    "jpeg-js": "0.3.7",
+    "jpeg-js": "0.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.73.6",
