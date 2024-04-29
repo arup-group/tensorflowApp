@@ -1,30 +1,31 @@
 {
+  "name": "rn-object-classification",
+  "displayName": "rn-object-classification",
   "expo": {
     "name": "rn-object-classification",
     "slug": "rn-object-classification",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+    "extra": {
+      "eas": {
+        "projectId": "ac6ce718-1b13-4aa4-809d-f74f19194dae"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "ios": {
+      "bundleIdentifier": "com.iris.yang.rnobjectclassification"
+    },
+    "android": {
+      "package": "com.rnobjectclassification"
     }
-  }
+  },
+  "plugins": [
+    [
+      "expo-image-picker",
+      {
+        "photosPermission": "The app accesses your photos to run them through object detection"
+      }
+    ]
+  ]
 }
