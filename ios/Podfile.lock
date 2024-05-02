@@ -5,14 +5,12 @@ PODS:
     - ExpoModulesCore
   - EXFont (11.10.3):
     - ExpoModulesCore
-  - EXGL_CPP (11.4.0):
-    - React-jsi
   - EXImageLoader (4.6.0):
     - ExpoModulesCore
     - React-Core
   - Expo (50.0.15):
     - ExpoModulesCore
-  - ExpoCamera (14.1.2):
+  - ExpoCamera (13.9.0):
     - ExpoModulesCore
     - ZXingObjC/OneD
     - ZXingObjC/PDF417
@@ -1114,7 +1112,6 @@ DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - EXConstants (from `../node_modules/expo-constants/ios`)
   - EXFont (from `../node_modules/expo-font/ios`)
-  - EXGL_CPP (from `../node_modules/expo-gl-cpp/cpp`)
   - EXImageLoader (from `../node_modules/expo-image-loader/ios`)
   - Expo (from `../node_modules/expo`)
   - ExpoCamera (from `../node_modules/expo-camera/ios`)
@@ -1195,8 +1192,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-constants/ios"
   EXFont:
     :path: "../node_modules/expo-font/ios"
-  EXGL_CPP:
-    :path: "../node_modules/expo-gl-cpp/cpp"
   EXImageLoader:
     :path: "../node_modules/expo-image-loader/ios"
   Expo:
@@ -1324,10 +1319,9 @@ SPEC CHECKSUMS:
   DoubleConversion: fea03f2699887d960129cc54bba7e52542b6f953
   EXConstants: 988aa430ca0f76b43cd46b66e7fae3287f9cc2fc
   EXFont: f20669cb266ef48b004f1eb1f2b20db96cd1df9f
-  EXGL_CPP: 26d0d7639ec8fcf9133c2883926ca7a005625ee6
   EXImageLoader: 55080616b2fe9da19ef8c7f706afd9814e279b6b
   Expo: 0f04015e4254c8b7c74f3c4b2facdfd0b62152b0
-  ExpoCamera: ed3dd4ae8e32603c91336ea8e27c5d1e2822d8f6
+  ExpoCamera: c13580cc0964c9e462f76579a0de9f468a9c6e73
   ExpoFileSystem: eecaf6796aed0f4dd20042dc2ca2cac6c4bc1185
   ExpoGL: 085542f97b13f2428ac2edb077c9a90f4566944d
   ExpoImagePicker: 66970181d1c838f444e5e1f81b804ab2d5ff49bd
